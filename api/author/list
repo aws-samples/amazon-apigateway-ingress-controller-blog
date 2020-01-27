@@ -1,0 +1,64 @@
+{
+    "authors": [
+        {
+            "author": "Peter Sbarski",
+            "id": "Peter-Sbarski",
+            "books": "9781617293825",
+            "about": ""
+        },
+        {
+            "author": "Ed Robinson",
+            "id": "Ed-Robinson",
+            "books": "9781788390071",
+            "about": "Ed Robinson works as a senior site reliability engineer at Cookpad's global headquarters in Bristol, UK. He has been working with Kubernetes for the last three years, deploying clusters on AWS to deliver resilient and reliable services for global audiences. He is a contributor to several open source projects and is a maintainer of Traefik, the modern HTTP reverse proxy designed for containers and microservices."
+        },
+        {
+            "author": "Gabriel Ramirez",
+            id": "Gabriel-Ramirez",
+            "books": "9781617293825",
+            "about": "Gabriel Ramirez was born in Mexico City where he studied Systems Engineering, he has 14 years of experience in the tech industry and has a wide experience in software development and enterprise systems architecture; he achieved the Oracle Certified Master Enterprise Architect certification"
+        },
+        {
+            "author": "Markus Klems",
+            "id": "Markus-Klems",
+            "books": "9781789130669",
+            "about": ""
+        },
+        {
+            "author": "Mitesh Soni",
+            "id": "Mitesh-Soni",
+            "books": "9781789535549",
+            "about": "Mitesh Soni is an avid learner with 10 years' experience in the IT industry. He is a Certified ScrumMaster (CSM), Certified Jenkins Engineer (CJE), SCJP, SCWCD, VCP, IBM Urbancode, and IBM Bluemix certified professional."
+        },
+        {
+            "author": "Yogesh Raheja",
+            "id": "Yogesh-Raheja",
+            "books": "9781789539974",
+            "about": "Yogesh Raheja is a certified DevOps and cloud expert with a decade of IT experience. He has expertise in technologies such as OS, source code management, build & release tools, continuous"
+        },
+        {
+            "author": "Mohit Gupta",
+            "id": "Mohit-Gupta",
+            "books": "9781789805024",
+            "about": ""
+        },
+        {
+            "author": "John Paul Mueller",
+            "id": "John-Paul-Mueller",
+            "books": "9781119371847",
+            "about": ""
+        },
+        {
+            "author": "Mitch Garnaat",
+            "id": "Mitch-Garnaat",
+            "books": "9781449305444",
+            "about": ""
+        },
+        {
+            "author": "David K. Rensin",
+            "id": "David-K.-Rensin",
+            "books": "9781449333584",
+            "about": "David K. Rensin (1972-) is an American technology entrepreneur, computer scientist, and best-selling author based in Silicon Valley (just south of San Francisco, CA). He writes on a wide range of technical topics from advanced data management to best practices for building distributed systems and companies."
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: book-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: book
+  template:
+    metadata:
+      labels:
+        app: book
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.17.3
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: workdir
+          mountPath: /usr/share/nginx/html
+  # These containers are run during pod initialization
+      initContainers:
+      - name: install
+        image: bitnami/git
+        command: ["git"]
+        args: ["clone", "https://github.com/aws-samples/amazon-apigateway-ingress-controller-blog.git", "/var/lib/data/"]
+        volumeMounts:
+        - name: workdir
+          mountPath: "/var/lib/data"
+      dnsPolicy: Default
+      volumes:
+      - name: workdir
+        emptyDir: {}
+
+           

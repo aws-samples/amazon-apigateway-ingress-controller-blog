@@ -1,0 +1,74 @@
+{
+    "books": [
+        {
+            "title": "Serverless Architectures on AWS",
+            "subtitle": "With examples using AWS Lambda",
+            "isbn13": "9781617293825",
+            "author": "Peter Sbarski",
+            "link": "https://www.amazon.com/dp/1617293822"
+        },
+        {
+            "title": "Kubernetes on AWS",
+            "subtitle": "Deploy and manage production-ready Kubernetes clusters on AWS",
+            "isbn13": "9781788390071",
+            "author": "Ed Robinson",
+            "link": "https://www.amazon.com/dp/1788390075"
+        },
+        {
+            "title": "AWS Certified Solutions Architect - Associate Guide",
+            "subtitle": "The ultimate exam guide to AWS Solutions Architect certification",
+            "isbn13": "9781789130669",
+            "author": "Gabriel Ramirez, Stuart Scott",
+            "link": "https://www.amazon.com//dp/1789130662/"
+        },
+        {
+            "title": "AWS Lambda Quick Start Guide",
+            "subtitle": "Learn how to build and deploy serverless applications on AWS",
+            "isbn13": "9781789340198",
+            "author": "Markus Klems",
+            "link": "https://www.amazon.com/dp/1789340195"
+        },
+        {
+            "title": "Designing AWS Environments",
+            "subtitle": "Architect large-scale cloud infrastructures with AWS",
+            "isbn13": "9781789535549",
+            "author": "Mitesh Soni",
+            "link": "https://www.amazon.com/dp/B07HYDMS83"
+        },
+        {
+            "title": "Effective DevOps with AWS, 2nd Edition",
+            "subtitle": "Implement continuous delivery and integration in the AWS environment",
+            "isbn13": "9781789539974",
+            "author": "Yogesh Raheja, Giuseppe Borgese, Nathaniel Felsen",
+            "link": "https://www.amazon.com/dp/B07HHBRDV6"
+        },
+        {
+            "title": "Serverless Architectures with AWS",
+            "subtitle": "Discover how you can migrate from traditional deployments to serverless architectures with AWS",
+            "isbn13": "9781789805024",
+            "author": "Mohit Gupta",
+            "link": "https://www.amazon.com/dp/B07JFMVG93"
+        },
+        {
+            "title": "AWS for Developers For Dummies",
+            "subtitle": "",
+            "isbn13": "9781119371847",
+            "author": "John Paul Mueller",
+            "link": "https://www.amazon.com/dp/B074DM5C3T/"
+        },
+        {
+            "title": "Python and AWS Cookbook",
+            "subtitle": "Managing Your Cloud with Python and Boto",
+            "isbn13": "9781449305444",
+            "author": "Mitch Garnaat",
+            "link": "https://www.amazon.com/dp/1617293822"
+        },
+        {
+            "title": "Building a Windows IT Infrastructure in the Cloud",
+            "subtitle": "Distributed Hosted Environments with AWS",
+            "isbn13": "9781449333584",
+            "author": "David K. Rensin",
+            "link": "https://www.amazon.com/dp/B009I6BIZI"
+        }
+    ]
+}

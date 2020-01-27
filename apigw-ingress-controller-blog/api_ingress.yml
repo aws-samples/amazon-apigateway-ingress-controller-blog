@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    apigateway.ingress.kubernetes.io/client-arns: arn:aws:iam::xxxxxx:user/apigw-user
+    apigateway.ingress.kubernetes.io/stage-name: prod
+    kubernetes.io/ingress.class: apigateway
+  name: api-95d8427d
+  namespace: default
+spec:
+  rules:
+  - http:
+      paths:
+      - backend:
+          serviceName: bookservice
+          servicePort: 80
+        path: /api/book
+      - backend:
+          serviceName: authorservice
+          servicePort: 80
+        path: /api/author

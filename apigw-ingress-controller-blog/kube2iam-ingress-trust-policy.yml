@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": "sts:AssumeRole",
+      "Principal": {
+        "Service": "ec2.amazonaws.com"
+      },
+      "Effect": "Allow",
+      "Sid": ""
+    },
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "eksctl-eksworkshop-blog-nodegroup-NodeInstanceRole-18S8TPGM0CD2T"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}
