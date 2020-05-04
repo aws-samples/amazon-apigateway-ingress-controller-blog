@@ -10,4 +10,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: {{ .Release.Name }}-amzn-apigw-ingress-controller
-  namespace: default
+  namespace: {{ .Release.Namespace }}
