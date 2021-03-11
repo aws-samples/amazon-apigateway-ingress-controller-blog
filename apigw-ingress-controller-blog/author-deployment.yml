@@ -33,5 +33,20 @@ spec:
       volumes:
       - name: workdir
         emptyDir: {}
+        
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: authorservice
+spec:
+  type: ClusterIP
+  selector:
+    app: author
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
 
            
